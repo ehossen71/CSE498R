@@ -1,0 +1,7 @@
+pot==0.9.1
+numpy>=1.20.0
+matplotlib>=3.3.0
+scipy>=1.5.0
+# Optional: For GPU support
+# torch>=1.9.0
+# cupy  # For CUDA GPU acceleration
