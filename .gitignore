@@ -42,8 +42,7 @@ wheels/
 *.swo
 *~
 
-# Output files
-*.png
+# Output files (but keep visualization)
 *.jpg
 *.csv
 *.pkl
