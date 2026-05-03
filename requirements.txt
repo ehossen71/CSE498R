@@ -1,7 +1,20 @@
-pot==0.9.1
+# Core dependencies
 numpy>=1.20.0
-matplotlib>=3.3.0
 scipy>=1.5.0
-# Optional: For GPU support
-# torch>=1.9.0
-# cupy  # For CUDA GPU acceleration
+matplotlib>=3.3.0
+pillow>=8.0.0
+pandas>=1.2.0
+
+# Optimal Transport
+pot==0.9.1                # Python Optimal Transport library for benchmarking
+
+# PyTorch (required for high-performance Sinkhorn GPU acceleration)
+torch>=1.9.0              # GPU-accelerated tensor operations and CUDA support
+torchvision>=0.10.0       # Image utilities and MNIST dataset loading
+
+# Machine Learning
+scikit-learn>=0.24.0      # For MNIST distance metric experiments
+
+# Optional: For development and profiling
+# cupy>=9.0.0             # GPU acceleration alternative (not required)
+# tensorboard>=2.5.0      # For training visualization (optional)
